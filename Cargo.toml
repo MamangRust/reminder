@@ -1,0 +1,14 @@
+[package]
+name = "reminder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.42"
+notify-rust = "4.11.7"
+serde_json = "1.0.145"
+serde = {version = "1.0.228", features = ["derive"]}
+ratatui = "0.26"
+crossterm = "0.27"
+rusqlite = {version = "0.30", features = ["bundled", "chrono"]}
+tokio = {version = "1", features = ["full"]}
